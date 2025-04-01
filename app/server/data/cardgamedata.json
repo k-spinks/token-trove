@@ -1,0 +1,155 @@
+[
+  {
+    "title": "Magic: The Gathering - Modern Horizons 2 Booster Box",
+    "publisher": "Wizards of the Coast",
+    "year": "2021",
+    "quantity": 8,
+    "description": "Modern Horizons 2 brings new cards and powerful reprints to Modern. Each booster box contains 36 packs, with exciting new mechanics and premium foils.",
+    "price": 200,
+    "image": "mtg_modern_horizons_2.png"
+  },
+  {
+    "title": "Pokémon Scarlet & Violet Booster Box",
+    "publisher": "The Pokémon Company",
+    "year": "2023",
+    "quantity": 10,
+    "description": "The Scarlet & Violet Booster Box introduces powerful new Pokémon and exciting gameplay mechanics. Each booster pack contains 10 cards, including rare and holo cards to enhance your collection.",
+    "price": 120,
+    "image": "pokemon_scarlet_violet_booster.png"
+  },
+  {
+    "title": "Disney Lorcana: The First Chapter Booster Box",
+    "publisher": "Ravensburger",
+    "year": "2023",
+    "quantity": 12,
+    "description": "Enter the magical world of Disney Lorcana with The First Chapter. Each booster box includes 24 packs filled with beloved Disney characters, spells, and adventures.",
+    "price": 150,
+    "image": "lorcana_first_chapter.png"
+  },
+  {
+    "title": "Yu-Gi-Oh! Battle of Chaos Booster Box",
+    "publisher": "Konami",
+    "year": "2022",
+    "quantity": 9,
+    "description": "Battle of Chaos features powerful new archetypes and support for fan-favorite decks. Each box contains 24 booster packs filled with rare and secret rare cards.",
+    "price": 85,
+    "image": "yugioh_battle_of_chaos.png"
+  },
+  {
+    "title": "Lord of the Rings: Tales of Middle-Earth Booster Box",
+    "publisher": "Wizards of the Coast",
+    "year": "2023",
+    "quantity": 10,
+    "description": "Tales of Middle-Earth brings the world of J.R.R. Tolkien’s Lord of the Rings to Magic: The Gathering. Each booster box contains 36 packs, featuring iconic characters and cards.",
+    "price": 220,
+    "image": "lotr_tales_of_middle_earth.png"
+  },
+  {
+    "title": "Marvel Champions: The Card Game Core Set",
+    "publisher": "Fantasy Flight Games",
+    "year": "2019",
+    "quantity": 5,
+    "description": "Marvel Champions is a cooperative card game where players take on the role of iconic Marvel superheroes. The core set includes heroes like Spider-Man and Iron Man, along with the villains to defeat.",
+    "price": 60,
+    "image": "marvel_champions_core_set.png"
+  },
+  {
+    "title": "Magic: The Gathering - Commander Legends Box",
+    "publisher": "Wizards of the Coast",
+    "year": "2020",
+    "quantity": 5,
+    "description": "Commander Legends introduces powerful new cards for the Commander format. Each box contains 24 packs with legendary creatures and unique game-changing effects.",
+    "price": 140,
+    "image": "mtg_commander_legends.png"
+  },
+  {
+    "title": "Pokémon Crown Zenith Elite Trainer Box",
+    "publisher": "The Pokémon Company",
+    "year": "2023",
+    "quantity": 6,
+    "description": "Crown Zenith offers a special collection of powerful Pokémon with exclusive promo cards and unique accessories. Each Elite Trainer Box contains 10 booster packs and essential game accessories.",
+    "price": 50,
+    "image": "pokemon_crown_zenith.png"
+  },
+  {
+    "title": "Disney Lorcana: Rise of the Floodborn Starter Deck",
+    "publisher": "Ravensburger",
+    "year": "2023",
+    "quantity": 8,
+    "description": "The Rise of the Floodborn Starter Deck offers a complete deck featuring iconic Disney characters and an introduction to the world of Lorcana. Perfect for new players.",
+    "price": 30,
+    "image": "lorcana_rise_of_the_floodborn.png"
+  },
+  {
+    "title": "Yu-Gi-Oh! Structure Deck: Albaz Strike",
+    "publisher": "Konami",
+    "year": "2022",
+    "quantity": 9,
+    "description": "Albaz Strike is a ready-to-play structure deck with a powerful Dragon theme and key combo pieces. Great for competitive play and deck building.",
+    "price": 15,
+    "image": "yugioh_albaz_strike.png"
+  },
+  {
+    "title": "Lord of the Rings: The One Ring Collector's Pack",
+    "publisher": "Wizards of the Coast",
+    "year": "2023",
+    "quantity": 5,
+    "description": "The One Ring Collector's Pack is a premium product featuring rare and collectible cards from the Lord of the Rings set. It includes special foils, promo cards, and exclusive art.",
+    "price": 150,
+    "image": "lotr_the_one_ring.png"
+  },
+  {
+    "title": "Marvel Champions: The Rise of Red Skull Expansion",
+    "publisher": "Fantasy Flight Games",
+    "year": "2020",
+    "quantity": 7,
+    "description": "The Rise of Red Skull Expansion adds new scenarios, heroes, and villains to Marvel Champions. Face off against the Red Skull and his Hydra forces in a thrilling new adventure.",
+    "price": 40,
+    "image": "marvel_champions_rise_of_red_skull.png"
+  },
+  {
+    "title": "Magic: The Gathering - Double Masters 2022 Draft Box",
+    "publisher": "Wizards of the Coast",
+    "year": "2022",
+    "quantity": 4,
+    "description": "Double Masters 2022 brings back iconic reprints with premium foils and powerful cards. Each draft box includes 24 packs, perfect for an unforgettable drafting experience.",
+    "price": 250,
+    "image": "mtg_double_masters_2022.png"
+  },
+  {
+    "title": "Pokémon Celebrations Elite Trainer Box",
+    "publisher": "The Pokémon Company",
+    "year": "2021",
+    "quantity": 6,
+    "description": "Celebrate 25 years of Pokémon with the Celebrations Elite Trainer Box, featuring classic cards and exclusive promos. Includes 10 Celebrations packs and 5 Sword & Shield packs.",
+    "price": 75,
+    "image": "pokemon_celebrations.png"
+  },
+  {
+    "title": "Yu-Gi-Oh! Ghosts from the Past: The 2nd Haunting",
+    "publisher": "Konami",
+    "year": "2022",
+    "quantity": 8,
+    "description": "Ghosts from the Past: The 2nd Haunting features popular cards from the past, including Ghost Rares. Each box contains 5 packs filled with exciting and rare cards.",
+    "price": 45,
+    "image": "yugioh_ghosts_2nd_haunting.png"
+  },
+  {
+    "title": "Magic: The Gathering - Phyrexia: All Will Be One Collector Booster Box",
+    "publisher": "Wizards of the Coast",
+    "year": "2023",
+    "quantity": 4,
+    "description": "Phyrexia: All Will Be One introduces new Phyrexian-themed mechanics and powerful cards. Each collector booster box contains 12 packs with a high concentration of foils and rares.",
+    "price": 350,
+    "image": "mtg_phyrexia_all_will_be_one.png"
+  },
+  {
+    "title": "Pokémon Sword & Shield: Evolving Skies Elite Trainer Box",
+    "publisher": "The Pokémon Company",
+    "year": "2021",
+    "quantity": 7,
+    "description": "Evolving Skies brings a new batch of cards to the Sword & Shield era. The Elite Trainer Box contains 10 packs, promo cards, dice, and other game accessories.",
+    "price": 45,
+    "image": "pokemon_evolving_skies.png"
+  }
+]

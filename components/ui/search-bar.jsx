@@ -11,8 +11,12 @@ export default function SearchBar() {
   }
   function handleSearch (event) {
     event.preventDefault()
+    if(!event.value){
+      alert('No value')
+    } else {
     alert(`${inputValue}`)
     setInputValue('')
+    }
   }
 
   return (

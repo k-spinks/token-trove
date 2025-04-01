@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 
 import "./globals.css";
 import NavBar from "../components/ui/nav-bar";
+import Footer from "@/components/footer";
 
 export const metadata = {
   title: "Token Trove",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );

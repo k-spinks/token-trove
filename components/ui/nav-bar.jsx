@@ -20,8 +20,8 @@ export default function NavBar() {
         <Link className="hover:text-blue-700" href={'/boardgames'}>Board Games</Link>
         <Link className="hover:text-blue-700" href={'/cardgames'}>Card Games</Link>
         <Link className="hover:text-blue-700" href={'/accessories'}>Accessories</Link>
-        <Link className="hover:text-blue-700" href={'/login'}>Account</Link>
-        <Link className="hover:cursor-pointer" href={'checkout'}>
+        <Link className="hover:text-blue-700" href={'/account'}>Account</Link>
+        <Link className="hover:cursor-pointer" href={'/checkout'}>
           <ShoppingBag/>
         </Link>
       </div>
