@@ -15,17 +15,19 @@ export default async function Home () {
     const [allBoardGames, allCardGames, allAccessories] = await Promise.all([
       db.collection("boardgames").find({}).toArray().catch( ()=>[] ),
       db.collection("cardgames").find({}).toArray().catch(() => []),
-      db.collection("accessories").find({}).toArray().catch(() => [])
+      db.collection("accessories").find({}).toArray().catch(() => []),
     ])
 
     const topRated = allBoardGames.filter((game) => game.rating >= 8).slice(0,10)
+    const singleGame = allBoardGames.slice(0,1)
+
 
   return (
     <section className="flex flex-col gap-9 my-9 mx-auto w-max">
       <section className="flex gap-3">
         <div>
           <a href="">
-            <Image src="https://placehold.co/500x325" alt="promotional banner" width={500} height={200} />
+            <Image src="https://placehold.co/500x325" alt="promotional banner" width={500} height={325} />
           </a>
         </div>
         <div className="grid grid-cols-2 gap-4">
@@ -43,25 +45,14 @@ export default async function Home () {
         </a>
         </div>
       </section>
-      <div>
+      <di>
         <h2>Top Games</h2>
-        <GameCard />
-        {/* {topRated ? topRated.map((game) => {
-          <div>
-            <div key={game._id}>
-              <Image src={game.image} alt={`${game.title} box art`} width={100} height={100}/>
-            </div>
-            <div>
-              <h4>{game.title}</h4>
-              <h6>{game.price}</h6>
-            </div>
-          </div>
-        }) :
-          <div>
-            <h2>Failed to Load Top rated</h2>
-          </div>
-        } */}
-      </div>
+        {!singleGame ?
+          <span>Game not loading in time</span>
+          :
+          <GameCard props={singleGame}/>
+        }
+      </di>
     </section>
   )
   } catch(e) {

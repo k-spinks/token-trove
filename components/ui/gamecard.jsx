@@ -1,11 +1,12 @@
 import Image from "next/image"
 
-export default function GameCard(props) {
-  const {title, id, price, quantity, imagesrc } = props
+export default function GameCard({props: [game]}) {
+
+  const {title, price, quantity, image} = game
   return (
-    <div className="flex flex-col p-1 bg-gray-200 rounded-3xl items-center shadow-md">
+    <div className="flex flex-col bg-gray-200 rounded-3xl items-center shadow-md">
       <div>
-        <Image src={imagesrc} alt={`${title} board game box art`} width={200} height={200}/>
+        <Image src={`/${image}`} alt={`${title} board game box art`} width={200} height={200}/>
       </div>
       <div className="self-center">
         <h2>{price}</h2>
